@@ -1,0 +1,58 @@
+.zigzag-item,.zigzag-item-reverse {
+    width: 100%;
+    margin: 20px 0;
+    float: none;
+  }
+
+.zigzag-content h2 {
+    font-size: 30px;
+  }
+
+.zigzag-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.zigzag-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.zigzag-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  float: left;
+  margin-left: 30px;
+}
+
+.zigzag-item img {
+  margin: 0 auto;
+}
+
+.zigzag-item-reverse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  float: left;
+  margin-left: 30px;
+}
+
+.zigzag-item-reverse img {
+  margin: 0 auto;
+}
+
+.zigzag-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.zigzag-content img {
+  margin-bottom: 10px;
+}
